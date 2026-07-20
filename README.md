@@ -31,9 +31,6 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 > <img width="2356" height="1028" alt="image" src="https://github.com/user-attachments/assets/de59ee9b-653f-42a8-bf17-d166b19f5630" />
 
-
-![Project Preview](images/solar_monitoring_system.png)
-
 ---
 
 # System Architecture
