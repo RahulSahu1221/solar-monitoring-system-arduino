@@ -1,10 +1,10 @@
-# ☀️ Solar Monitoring System Using Arduino
+# Solar Monitoring System Using Arduino
 
 > A real-time solar energy monitoring system developed using **Arduino Uno** and **Proteus**, capable of measuring solar panel voltage, charging current, battery voltage, battery State of Charge (SOC), output power, and generated energy.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Renewable energy systems require continuous monitoring to ensure efficient power generation and battery charging. Manual measurement using multimeters is time-consuming and does not provide continuous feedback.
 
@@ -14,7 +14,7 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Monitor solar panel voltage
 - Measure charging current
@@ -36,10 +36,10 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-# 🏗 System Architecture
+# System Architecture
 
 ```
-          ☀️ Solar Panel
+          Solar Panel
                  │
                  ▼
         ACS712 Current Sensor
@@ -57,7 +57,7 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-# ⚙️ Hardware Components
+# Hardware Components
 
 | Component | Description |
 |------------|-------------|
@@ -73,7 +73,7 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-# 💻 Software Requirements
+# Software Requirements
 
 - Arduino IDE
 - Proteus 8 Professional
@@ -81,7 +81,7 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-# 🔄 Working Principle
+# Working Principle
 
 1. Solar panel generates DC voltage.
 2. Charging current passes through the ACS712 sensor.
@@ -99,7 +99,7 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-# 📊 Parameters Monitored
+# Parameters Monitored
 
 | Parameter | Unit |
 |------------|------|
@@ -112,7 +112,7 @@ The system is designed as a simple, low-cost embedded solution suitable for educ
 
 ---
 
-# 📈 Mathematical Calculations
+# Mathematical Calculations
 
 ## Solar Voltage
 
@@ -174,7 +174,7 @@ SOC = ((Vbattery − 11) / (13 − 11)) × 100
 
 ---
 
-# 🖥 LCD Screens
+# LCD Screens
 
 ### Screen 1
 
@@ -210,7 +210,7 @@ Energy
 
 ---
 
-# 📋 Simulation Results
+# Simulation Results
 
 | Parameter | Result |
 |------------|---------|
@@ -223,7 +223,7 @@ Energy
 
 ---
 
-# ✨ Features
+# Features
 
 - Real-time monitoring
 - Automatic calculations
@@ -236,7 +236,7 @@ Energy
 
 ---
 
-# 🚀 Applications
+# Applications
 
 - Solar Home Systems
 - Renewable Energy Education
@@ -248,7 +248,7 @@ Energy
 
 ---
 
-# 📌 Advantages
+# Advantages
 
 - Low cost
 - Easy implementation
@@ -259,7 +259,7 @@ Energy
 
 ---
 
-# ⚠ Limitations
+# Limitations
 
 - Simulation-based implementation
 - Approximate SOC estimation
@@ -269,7 +269,7 @@ Energy
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - ESP32 Wi-Fi integration
 - IoT Dashboard
@@ -283,7 +283,7 @@ Energy
 
 ---
 
-# 🛠 Skills Demonstrated
+# Skills Demonstrated
 
 - Embedded C Programming
 - Arduino Programming
@@ -299,7 +299,7 @@ Energy
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 solar-monitoring-system-arduino/
@@ -332,7 +332,7 @@ solar-monitoring-system-arduino/
 
 ---
 
-# 🎓 Learning Outcomes
+# Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -347,7 +347,7 @@ Through this project, I gained practical experience in:
 
 ---
 
-# 📚 References
+# References
 
 - Arduino Official Documentation
 - ACS712 Current Sensor Datasheet
@@ -356,14 +356,5 @@ Through this project, I gained practical experience in:
 
 ---
 
-# 👨‍💻 Author
-
-**Rahul Sahu**
-
-Bachelor of Technology (Electrical & Electronics Engineering)
-
-Embedded Systems | Renewable Energy | IoT | Arduino
-
----
 
 ## ⭐ If you found this project helpful, consider giving it a star.
